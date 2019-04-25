@@ -1,0 +1,78 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AADC15D0-541F-4169-8A2B-750927969CC6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ContributeOnlineSystem.DAL</RootNamespace>
+    <AssemblyName>ContributeOnlineSystem.DAL</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArticleColumnService.cs" />
+    <Compile Include="ArticleService.cs" />
+    <Compile Include="ArticleStateService.cs" />
+    <Compile Include="ArticleTypeService.cs" />
+    <Compile Include="AssessOpinionService.cs" />
+    <Compile Include="AssessResultService.cs" />
+    <Compile Include="AssessStateService.cs" />
+    <Compile Include="ExpertArticleService.cs" />
+    <Compile Include="UserAuthorService.cs" />
+    <Compile Include="DBHelper\DBVisit.cs" />
+    <Compile Include="ExpertFieldService.cs" />
+    <Compile Include="FieldService.cs" />
+    <Compile Include="GeneralUserService.cs" />
+    <Compile Include="MessageService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleService.cs" />
+    <Compile Include="UserExpertService.cs" />
+    <Compile Include="UserResponsibleEditorService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ContributeOnlineModels\ContributeOnlineModels.csproj">
+      <Project>{71B0616D-9904-4B25-81E1-FEAFBB97B060}</Project>
+      <Name>ContributeOnlineModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

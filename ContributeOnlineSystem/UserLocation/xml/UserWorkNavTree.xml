@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMapNode url="#" title="投稿系统" description="">
+	<siteMapNode url="#" title="我的稿件" description="">
+		<siteMapNode url="~/UserLocation/MyArticle/WorkArticleSearch.aspx?SearchMode=UnFinish" title="未处理稿件" description=""/>
+		<siteMapNode url="~/UserLocation/MyArticle/WorkedArticle.aspx?SearchMode=Finish" title="已处理稿件" description=""/>
+	</siteMapNode>
+	
+	<siteMapNode url="" title="个人设置" description="">
+		<siteMapNode url="~/UserLocation/UserSettings/UserInfo.aspx" title="个人资料" description=""/>
+		<siteMapNode url="~/UserLocation/UserSettings/ChangePassword.aspx" title="修改密码" description=""/>
+		<siteMapNode url="~/UserLocation/UserSettings/UserExit.aspx" title="用户注销" description=""/>
+	</siteMapNode>
+</siteMapNode>

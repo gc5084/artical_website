@@ -1,0 +1,7 @@
+bin\Debug\ContributeOnlineSystem.DAL.dll
+bin\Debug\ContributeOnlineSystem.DAL.pdb
+bin\Debug\ContributeOnlineSystem.Models.dll
+bin\Debug\ContributeOnlineSystem.Models.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ContributeOnlineSystem.DAL.dll
+obj\Debug\ContributeOnlineSystem.DAL.pdb

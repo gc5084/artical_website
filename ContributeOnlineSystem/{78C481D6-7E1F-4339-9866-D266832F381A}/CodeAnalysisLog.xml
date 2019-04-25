@@ -1,0 +1,1182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 8\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.Xsl"?>
+<FxCopReport Version="8">
+ <Targets>
+  <Target Name="C:\Documents and Settings\Blue\Local Settings\Temp\tmpD5.tmp.cadir\bin\App_Web_0yigsqap.dll">
+   <Modules>
+    <Module Name="app_web_0yigsqap.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="Admin_PageExpertFieldManager_PageFieldSearch" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnAddFiled_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageExpertFieldManager" File="PageFieldSearch.aspx.cs" Line="43">更正成员名“btnAddFiled_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="expertField" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">似乎从未使用过字段“Admin_PageExpertFieldManager_PageFieldSearch.expertField”或只对其进行过赋值。请使用此字段或移除它。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="gvExpertFiled_RowDeleting(System.Object,System.Web.UI.WebControls.GridViewDeleteEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageExpertFieldManager" File="PageFieldSearch.aspx.cs" Line="74">更正成员名“gvExpertFiled_RowDeleting”的大小写。</Issue>
+            </Message>
+            <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageExpertFieldManager" File="PageFieldSearch.aspx.cs" Line="74">更正成员名“Admin_PageExpertFieldManager_PageFieldSearch.gvExpertFiled_RowDeleting(Object, GridViewDeleteEventArgs):Void”中“gv”的大写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="lbtnDel_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageExpertFieldManager" File="PageFieldSearch.aspx.cs" Line="62">更正成员名“lbtnDel_Click”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Int32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageExpertFieldManager" File="PageFieldSearch.aspx.cs" Line="64">Admin_PageExpertFieldManager_PageFieldSearch.lbtnDel_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.Parse(System.String) 进行调用。此操作应改为对 System.Int32.Parse(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Documents and Settings\Blue\Local Settings\Temp\tmpD5.tmp.cadir\bin\App_Web_2czifs6w.dll">
+   <Modules>
+    <Module Name="app_web_2czifs6w.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="UserLocation_MyArticle_AddArticle" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnSubmit_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddArticle.aspx.cs" Line="116">修改“UserLocation_MyArticle_AddArticle.btnSubmit_Click(Object, EventArgs):Void”以便捕捉比“System.Exception”更具体的异常，或者再次引发该异常。</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddArticle.aspx.cs" Line="45">更正成员名“btnSubmit_Click”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddArticle.aspx.cs" Line="55">UserLocation_MyArticle_AddArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddArticle.aspx.cs" Line="56">UserLocation_MyArticle_AddArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddArticle.aspx.cs" Line="59">UserLocation_MyArticle_AddArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Int64.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddArticle.aspx.cs" Line="100">UserLocation_MyArticle_AddArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int64.ToString 进行调用。此操作应改为对 System.Int64.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddArticle.aspx.cs" Line="107">UserLocation_MyArticle_AddArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int64.ToString 进行调用。此操作应改为对 System.Int64.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_AddAssessOpinion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnSubmit_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddAssessOpinion.aspx.cs" Line="82">更正成员名“btnSubmit_Click”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddAssessOpinion.aspx.cs" Line="84">UserLocation_MyArticle_AddAssessOpinion.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.Object) 进行调用。此操作应改为对 System.Convert.ToInt32(System.Object,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddAssessOpinion.aspx.cs" Line="92">UserLocation_MyArticle_AddAssessOpinion.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddAssessOpinion.aspx.cs" Line="113">UserLocation_MyArticle_AddAssessOpinion.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ddlResult_SelectedIndexChanged(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddAssessOpinion.aspx.cs" Line="70">更正成员名“ddlResult_SelectedIndexChanged”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="IsShowControl():System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToInt32(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="AddAssessOpinion.aspx.cs" Line="43">UserLocation_MyArticle_AddAssessOpinion.IsShowControl():Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.Object) 进行调用。此操作应改为对 System.Convert.ToInt32(System.Object,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_ArticleBack" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCheck_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleBack.aspx.cs" Line="39">更正成员名“btnCheck_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnModify(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleBack.aspx.cs" Line="64">更正成员名“btnModify”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnShowAssess(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleBack.aspx.cs" Line="52">更正成员名“btnShowAssess”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Web.UI.ITextControl.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleBack.aspx.cs" Line="21">UserLocation_MyArticle_ArticleBack.Page_Load(Object, EventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“提示：请详细查看评审意见中明确表明的“退回修改”或“不予录取”,若为“退回修改”请及时进入‘修改稿件’条目。”</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_ArticleDetail" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnSubmit_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleDetail.aspx.cs" Line="91">更正成员名“btnSubmit_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleDetail.aspx.cs" Line="27">UserLocation_MyArticle_ArticleDetail.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleDetail.aspx.cs" Line="29">UserLocation_MyArticle_ArticleDetail.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleDetail.aspx.cs" Line="36">UserLocation_MyArticle_ArticleDetail.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleDetail.aspx.cs" Line="38">UserLocation_MyArticle_ArticleDetail.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleDetail.aspx.cs" Line="41">UserLocation_MyArticle_ArticleDetail.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_ArticleSearch" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCheck_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleSearch.aspx.cs" Line="57">更正成员名“btnCheck_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnShowAssess(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleSearch.aspx.cs" Line="70">更正成员名“btnShowAssess”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Exception.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleSearch.aspx.cs" Line="44">UserLocation_MyArticle_ArticleSearch.Page_Load(Object, EventArgs):Void 将文本作为对 Exception.Exception(String) 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“Rosy：不存在的稿件类型”</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ArticleSearch.aspx.cs" Line="44">UserLocation_MyArticle_ArticleSearch.Page_Load(Object, EventArgs):Void 创建类型为“System.Exception”的异常，该异常类型不够具体，不应由用户代码引发。如果可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_Default" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="SetLocaleForDataTypes" Category="Microsoft.Globalization" CheckId="CA1306" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ShowAllAssess.aspx.cs" Line="27">只要“UserLocation_MyArticle_Default.Page_Load(Object, EventArgs):Void”创建了该类型的实例，就要确保设置 DataTable Locale 属性。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ShowAllAssess.aspx.cs" Line="26">UserLocation_MyArticle_Default.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_LayoutArticle" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCheck_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="LayoutArticle.aspx.cs" Line="49">更正成员名“btnCheck_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnPublic(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="LayoutArticle.aspx.cs" Line="63">更正成员名“btnPublic”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="LayoutArticle.aspx.cs" Line="65">UserLocation_MyArticle_LayoutArticle.btnPublic(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="localDataBind():System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="LayoutArticle.aspx.cs" Line="34">更正成员名“localDataBind”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_LayoutedArticle" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCheck_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="LayoutedArticle.aspx.cs" Line="49">更正成员名“btnCheck_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="localDataBind():System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="LayoutedArticle.aspx.cs" Line="34">更正成员名“localDataBind”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_ModifyArticle" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnSubmit_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ModifyArticle.aspx.cs" Line="60">更正成员名“btnSubmit_Click”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ModifyArticle.aspx.cs" Line="94">UserLocation_MyArticle_ModifyArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.Object) 进行调用。此操作应改为对 System.Convert.ToInt32(System.Object,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ModifyArticle.aspx.cs" Line="68">UserLocation_MyArticle_ModifyArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ModifyArticle.aspx.cs" Line="69">UserLocation_MyArticle_ModifyArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ModifyArticle.aspx.cs" Line="71">UserLocation_MyArticle_ModifyArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Int64.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ModifyArticle.aspx.cs" Line="112">UserLocation_MyArticle_ModifyArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int64.ToString 进行调用。此操作应改为对 System.Int64.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ModifyArticle.aspx.cs" Line="121">UserLocation_MyArticle_ModifyArticle.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int64.ToString 进行调用。此操作应改为对 System.Int64.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToInt32(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ModifyArticle.aspx.cs" Line="35">UserLocation_MyArticle_ModifyArticle.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.Object) 进行调用。此操作应改为对 System.Convert.ToInt32(System.Object,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ModifyArticle.aspx.cs" Line="45">UserLocation_MyArticle_ModifyArticle.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="ModifyArticle.aspx.cs" Line="47">UserLocation_MyArticle_ModifyArticle.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_PublicArticle" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCheck_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="PublicArticle.aspx.cs" Line="49">更正成员名“btnCheck_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnPublic(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="PublicArticle.aspx.cs" Line="74">更正成员名“btnPublic”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="PublicArticle.aspx.cs" Line="76">UserLocation_MyArticle_PublicArticle.btnPublic(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnShowAssess(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="PublicArticle.aspx.cs" Line="62">更正成员名“btnShowAssess”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="localDataBind():System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="PublicArticle.aspx.cs" Line="34">更正成员名“localDataBind”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_Published" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCheck_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="Published.aspx.cs" Line="50">更正成员名“btnCheck_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnShowAssess(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="Published.aspx.cs" Line="63">更正成员名“btnShowAssess”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="localDataBind():System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="Published.aspx.cs" Line="35">更正成员名“localDataBind”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_WorkArticleSearch" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCheck_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="144">更正成员名“btnCheck_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnShowAssess(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="151">更正成员名“btnShowAssess”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="CreateConditionStr(ContributeOnlineSystem.Models.Role,System.Int32):System.String" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Exception.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="133">UserLocation_MyArticle_WorkArticleSearch.CreateConditionStr(Role, Int32):String 将文本作为对 Exception.Exception(String) 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“用户信息不正确！（该用户不能使用本功能）”</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="133">UserLocation_MyArticle_WorkArticleSearch.CreateConditionStr(Role, Int32):String 创建类型为“System.Exception”的异常，该异常类型不够具体，不应由用户代码引发。如果可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="115">UserLocation_MyArticle_WorkArticleSearch.CreateConditionStr(Role, Int32):String 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="122">UserLocation_MyArticle_WorkArticleSearch.CreateConditionStr(Role, Int32):String 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="CreateTableCon(ContributeOnlineSystem.Models.Role,System.Int32):System.String" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Exception.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="88">UserLocation_MyArticle_WorkArticleSearch.CreateTableCon(Role, Int32):String 将文本作为对 Exception.Exception(String) 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“用户信息不正确！（该用户不能使用本功能）”</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="88">UserLocation_MyArticle_WorkArticleSearch.CreateTableCon(Role, Int32):String 创建类型为“System.Exception”的异常，该异常类型不够具体，不应由用户代码引发。如果可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="userId" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="57">从未使用 UserLocation_MyArticle_WorkArticleSearch.CreateTableCon(Role, Int32):String 的参数“userId”。请移除该参数或在方法体中使用它。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Exception.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="42">UserLocation_MyArticle_WorkArticleSearch.Page_Load(Object, EventArgs):Void 将文本作为对 Exception.Exception(String) 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“不存在的稿件类型”</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkArticleSearch.aspx.cs" Line="42">UserLocation_MyArticle_WorkArticleSearch.Page_Load(Object, EventArgs):Void 创建类型为“System.Exception”的异常，该异常类型不够具体，不应由用户代码引发。如果可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_MyArticle_WorkedArticle" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCheck_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="145">更正成员名“btnCheck_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnShowAssess(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="152">更正成员名“btnShowAssess”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="CreateConditionStr(ContributeOnlineSystem.Models.Role,System.Int32):System.String" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Exception.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="134">UserLocation_MyArticle_WorkedArticle.CreateConditionStr(Role, Int32):String 将文本作为对 Exception.Exception(String) 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“用户信息不正确！（该用户不能使用本功能）”</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="134">UserLocation_MyArticle_WorkedArticle.CreateConditionStr(Role, Int32):String 创建类型为“System.Exception”的异常，该异常类型不够具体，不应由用户代码引发。如果可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="116">UserLocation_MyArticle_WorkedArticle.CreateConditionStr(Role, Int32):String 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="123">UserLocation_MyArticle_WorkedArticle.CreateConditionStr(Role, Int32):String 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="CreateTableCon(ContributeOnlineSystem.Models.Role,System.Int32):System.String" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Exception.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="89">UserLocation_MyArticle_WorkedArticle.CreateTableCon(Role, Int32):String 将文本作为对 Exception.Exception(String) 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“用户信息不正确！（该用户不能使用本功能）”</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="89">UserLocation_MyArticle_WorkedArticle.CreateTableCon(Role, Int32):String 创建类型为“System.Exception”的异常，该异常类型不够具体，不应由用户代码引发。如果可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+            <Message Id="userId" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="58">从未使用 UserLocation_MyArticle_WorkedArticle.CreateTableCon(Role, Int32):String 的参数“userId”。请移除该参数或在方法体中使用它。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Exception.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="43">UserLocation_MyArticle_WorkedArticle.Page_Load(Object, EventArgs):Void 将文本作为对 Exception.Exception(String) 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“不存在的稿件类型”</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\MyArticle" File="WorkedArticle.aspx.cs" Line="43">UserLocation_MyArticle_WorkedArticle.Page_Load(Object, EventArgs):Void 创建类型为“System.Exception”的异常，该异常类型不够具体，不应由用户代码引发。如果可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Documents and Settings\Blue\Local Settings\Temp\tmpD5.tmp.cadir\bin\App_Web_afmi8tps.dll">
+   <Modules>
+    <Module Name="app_web_afmi8tps.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="index" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“index”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="leftTree" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“leftTree”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="list" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“list”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="main" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“main”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="mainCon" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“mainCon”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="search" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“search”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="switchView" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“switchView”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="tab" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“tab”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="topTools" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“topTools”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="window" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“window”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Documents and Settings\Blue\Local Settings\Temp\tmpD5.tmp.cadir\bin\App_Web_afwcbf40.dll">
+   <Modules>
+    <Module Name="app_web_afwcbf40.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="AddUser" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="BindDataCBLal():System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Web.UI.ITextControl.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="100">AddUser.BindDataCBLal():Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“没有可显示的栏目信息”</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="BindDataCBLfield():System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Web.UI.ITextControl.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="82">AddUser.BindDataCBLfield():Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“没有可显示的领域信息”</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="ExpertID" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="MemberId" Certainty="85" Level="Error">“Id”是一个缩写词，因此无需遵守首字母缩略词大小写规则。请更正成员名“AddUser.ExpertID”中“ID”的大写，将其更改为“Id”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="GetGeneralInfo(ContributeOnlineSystem.Models.GeneralUser):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToDateTime(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="54">AddUser.GetGeneralInfo(GeneralUser):Void 对未显式提供 IFormatProvider 的 System.Convert.ToDateTime(System.String) 进行调用。此操作应改为对 System.Convert.ToDateTime(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Int32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="57">AddUser.GetGeneralInfo(GeneralUser):Void 对未显式提供 IFormatProvider 的 System.Int32.Parse(System.String) 进行调用。此操作应改为对 System.Int32.Parse(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnBTNextClick(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="122">AddUser.OnBTNextClick(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="126">AddUser.OnBTNextClick(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnCheckName(System.Object,System.Web.UI.WebControls.ServerValidateEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Web.UI.ITextControl.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="284">AddUser.OnCheckName(Object, ServerValidateEventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“不允许为空！”</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="292">AddUser.OnCheckName(Object, ServerValidateEventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“用户名已存在！”</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="280">使用 String.IsNullOrEmpty 调用替换“AddUser.OnCheckName(Object, ServerValidateEventArgs):Void”中对 String.op_Equality("") 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnCheckPWD(System.Object,System.Web.UI.WebControls.ServerValidateEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Web.UI.ITextControl.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="320">AddUser.OnCheckPWD(Object, ServerValidateEventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“密码不一致”</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="314">AddUser.OnCheckPWD(Object, ServerValidateEventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“密码不允许为空！”</Issue>
+            </Message>
+            <Message Id="Member" TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="307">更正成员名“AddUser.OnCheckPWD(Object, ServerValidateEventArgs):Void”中的大写。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="311">使用 String.IsNullOrEmpty 调用替换“AddUser.OnCheckPWD(Object, ServerValidateEventArgs):Void”中对 String.op_Equality("") 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnFinishExpert(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="180">AddUser.OnFinishExpert(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnFinishResponsible(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="AddUser.aspx.cs" Line="213">AddUser.OnFinishResponsible(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Admin_ChangeAdminPwd" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnSubmit_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin" File="ChangeAdminPwd.aspx.cs" Line="25">更正成员名“btnSubmit_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="index" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“index”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="leftTree" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“leftTree”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="list" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“list”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="main" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“main”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="mainCon" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“mainCon”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="switchView" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“switchView”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="tab" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“tab”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="topTools" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“topTools”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="window" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“window”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Documents and Settings\Blue\Local Settings\Temp\tmpD5.tmp.cadir\bin\App_Web_cny8orln.dll">
+   <Modules>
+    <Module Name="app_web_cny8orln.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="Admin_PageUserManager_AddUserInfo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnDelete_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageUserManager" File="AddUserInfo.aspx.cs" Line="40">更正成员名“btnDelete_Click”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageUserManager" File="AddUserInfo.aspx.cs" Line="47">Admin_PageUserManager_AddUserInfo.btnDelete_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Documents and Settings\Blue\Local Settings\Temp\tmpD5.tmp.cadir\bin\App_Web_ibxb0c8a.dll">
+   <Modules>
+    <Module Name="app_web_ibxb0c8a.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="UserLocation_UserSettings_ChangePassword" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnSubmit_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="ChangePassword.aspx.cs" Line="26">更正成员名“btnSubmit_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_UserSettings_UpdateUserBaseInfo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnUpdate_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UpdateUserBaseInfo.aspx.cs" Line="47">更正成员名“btnUpdate_Click”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToDateTime(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UpdateUserBaseInfo.aspx.cs" Line="52">UserLocation_UserSettings_UpdateUserBaseInfo.btnUpdate_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToDateTime(System.String) 进行调用。此操作应改为对 System.Convert.ToDateTime(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UpdateUserBaseInfo.aspx.cs" Line="22">UserLocation_UserSettings_UpdateUserBaseInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UpdateUserBaseInfo.aspx.cs" Line="27">UserLocation_UserSettings_UpdateUserBaseInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UpdateUserBaseInfo.aspx.cs" Line="27">UserLocation_UserSettings_UpdateUserBaseInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UpdateUserBaseInfo.aspx.cs" Line="27">UserLocation_UserSettings_UpdateUserBaseInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UpdateUserBaseInfo.aspx.cs" Line="28">UserLocation_UserSettings_UpdateUserBaseInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UpdateUserBaseInfo.aspx.cs" Line="28">UserLocation_UserSettings_UpdateUserBaseInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UpdateUserBaseInfo.aspx.cs" Line="28">UserLocation_UserSettings_UpdateUserBaseInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_UserSettings_UserInfo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UserInfo.aspx.cs" Line="25">UserLocation_UserSettings_UserInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UserInfo.aspx.cs" Line="31">UserLocation_UserSettings_UserInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UserInfo.aspx.cs" Line="31">UserLocation_UserSettings_UserInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UserInfo.aspx.cs" Line="31">UserLocation_UserSettings_UserInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UserInfo.aspx.cs" Line="32">UserLocation_UserSettings_UserInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UserInfo.aspx.cs" Line="32">UserLocation_UserSettings_UserInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\UserSettings" File="UserInfo.aspx.cs" Line="32">UserLocation_UserSettings_UserInfo.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Documents and Settings\Blue\Local Settings\Temp\tmpD5.tmp.cadir\bin\App_Web_ifaql6rf.dll">
+   <Modules>
+    <Module Name="app_web_ifaql6rf.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="AdminLogin" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCancel_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem" File="AdminLogin.aspx.cs" Line="47">更正成员名“btnCancel_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnSubmit_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem" File="AdminLogin.aspx.cs" Line="26">更正成员名“btnSubmit_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="logo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“logo”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="pic" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“pic”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="RegisterNewUser" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnSubmit_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem" File="RegisterNewUser.aspx.cs" Line="26">更正成员名“btnSubmit_Click”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToDateTime(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem" File="RegisterNewUser.aspx.cs" Line="50">RegisterNewUser.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToDateTime(System.String) 进行调用。此操作应改为对 System.Convert.ToDateTime(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="f:\End\ContributeOnlineSystem" File="RegisterNewUser.aspx.cs" Line="43">使用 String.IsNullOrEmpty 调用替换“RegisterNewUser.btnSubmit_Click(Object, EventArgs):Void”中对 String.op_Equality("") 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ReLogin" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">更正类型名“ReLogin”中“Re”的大写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="success" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">更正类型名“success”的大小写。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UserLogin" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCancel_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem" File="UserLogin.aspx.cs" Line="66">更正成员名“btnCancel_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="btnSubmit_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem" File="UserLogin.aspx.cs" Line="38">更正成员名“btnSubmit_Click”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem" File="UserLogin.aspx.cs" Line="42">UserLogin.btnSubmit_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Documents and Settings\Blue\Local Settings\Temp\tmpD5.tmp.cadir\bin\App_Web_kfmi1inl.dll">
+   <Modules>
+    <Module Name="app_web_kfmi1inl.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="UserLocation_InformationCenter_MessageDetail" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageDetail.aspx.cs" Line="26">UserLocation_InformationCenter_MessageDetail.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageDetail.aspx.cs" Line="28">UserLocation_InformationCenter_MessageDetail.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageDetail.aspx.cs" Line="29">UserLocation_InformationCenter_MessageDetail.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageDetail.aspx.cs" Line="30">UserLocation_InformationCenter_MessageDetail.Page_Load(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserLocation_InformationCenter_MessageList" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnCheck_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageList.aspx.cs" Line="60">更正成员名“btnCheck_Click”的大小写。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Exception.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageList.aspx.cs" Line="47">UserLocation_InformationCenter_MessageList.Page_Load(Object, EventArgs):Void 将文本作为对 Exception.Exception(String) 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“Rosy：不存在的消息类型”</Issue>
+            </Message>
+            <Message Id="System.Web.UI.ITextControl.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageList.aspx.cs" Line="40">UserLocation_InformationCenter_MessageList.Page_Load(Object, EventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“已发送信息”</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageList.aspx.cs" Line="36">UserLocation_InformationCenter_MessageList.Page_Load(Object, EventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“已读信息”</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageList.aspx.cs" Line="44">UserLocation_InformationCenter_MessageList.Page_Load(Object, EventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“所有信息”</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageList.aspx.cs" Line="32">UserLocation_InformationCenter_MessageList.Page_Load(Object, EventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“未读信息”</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\UserLocation\InformationCenter" File="MessageList.aspx.cs" Line="47">UserLocation_InformationCenter_MessageList.Page_Load(Object, EventArgs):Void 创建类型为“System.Exception”的异常，该异常类型不够具体，不应由用户代码引发。如果可能引发此异常实例，请使用其他异常类型。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Documents and Settings\Blue\Local Settings\Temp\tmpD5.tmp.cadir\bin\App_Web_tpcmmcxy.dll">
+   <Modules>
+    <Module Name="app_web_tpcmmcxy.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="Admin_PageArticleManager_ArticleColumnSearch" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="btnAdd_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Web.UI.ITextControl.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="71">Admin_PageArticleManager_ArticleColumnSearch.btnAdd_Click(Object, EventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“”</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="72">Admin_PageArticleManager_ArticleColumnSearch.btnAdd_Click(Object, EventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“”</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="68">Admin_PageArticleManager_ArticleColumnSearch.btnAdd_Click(Object, EventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“添加新栏目”</Issue>
+            </Message>
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="52">更正成员名“btnAdd_Click”的大小写。</Issue>
+            </Message>
+            <Message Id="System.Int32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="57">Admin_PageArticleManager_ArticleColumnSearch.btnAdd_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.Parse(System.String) 进行调用。此操作应改为对 System.Int32.Parse(System.String,System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="66">Admin_PageArticleManager_ArticleColumnSearch.btnAdd_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.Parse(System.String) 进行调用。此操作应改为对 System.Int32.Parse(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="RepArticlec_ItemCommand(System.Object,System.Web.UI.WebControls.RepeaterCommandEventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Web.UI.ITextControl.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="94">Admin_PageArticleManager_ArticleColumnSearch.RepArticlec_ItemCommand(Object, RepeaterCommandEventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“修改栏目信息”</Issue>
+            </Message>
+            <Message Id="System.Int32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="87">Admin_PageArticleManager_ArticleColumnSearch.RepArticlec_ItemCommand(Object, RepeaterCommandEventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.Parse(System.String) 进行调用。此操作应改为对 System.Int32.Parse(System.String,System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="95">Admin_PageArticleManager_ArticleColumnSearch.RepArticlec_ItemCommand(Object, RepeaterCommandEventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.Parse(System.String) 进行调用。此操作应改为对 System.Int32.Parse(System.String,System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="114">Admin_PageArticleManager_ArticleColumnSearch.RepArticlec_ItemCommand(Object, RepeaterCommandEventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.Parse(System.String) 进行调用。此操作应改为对 System.Int32.Parse(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="103">Admin_PageArticleManager_ArticleColumnSearch.RepArticlec_ItemCommand(Object, RepeaterCommandEventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleColumnSearch.aspx.cs" Line="104">Admin_PageArticleManager_ArticleColumnSearch.RepArticlec_ItemCommand(Object, RepeaterCommandEventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Admin_PageArticleManager_ArticleManagerIndex" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="BTNext_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleManagerIndex.aspx.cs" Line="76">Admin_PageArticleManager_ArticleManagerIndex.BTNext_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleManagerIndex.aspx.cs" Line="77">Admin_PageArticleManager_ArticleManagerIndex.BTNext_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="BTPre_Click(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleManagerIndex.aspx.cs" Line="63">Admin_PageArticleManager_ArticleManagerIndex.BTPre_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleManagerIndex.aspx.cs" Line="64">Admin_PageArticleManager_ArticleManagerIndex.BTPre_Click(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="OnDelArticle(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleManagerIndex.aspx.cs" Line="91">Admin_PageArticleManager_ArticleManagerIndex.OnDelArticle(Object, EventArgs):Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="Page_Load(System.Object,System.EventArgs):System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Web.UI.ITextControl.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleManagerIndex.aspx.cs" Line="22">Admin_PageArticleManager_ArticleManagerIndex.Page_Load(Object, EventArgs):Void 将文本作为对 ITextControl.set_Text(String):Void 的调用的参数 1 进行传递。请改为从资源表中检索以下字符串参数:“1”</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="PageDataBind():System.Void" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleManagerIndex.aspx.cs" Line="34">Admin_PageArticleManager_ArticleManagerIndex.PageDataBind():Void 对未显式提供 IFormatProvider 的 System.Convert.ToInt32(System.String) 进行调用。此操作应改为对 System.Convert.ToInt32(System.String,System.IFormatProvider) 的调用。</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-04-06 05:50:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="f:\End\ContributeOnlineSystem\Admin\PageArticleManager" File="ArticleManagerIndex.aspx.cs" Line="42">Admin_PageArticleManager_ArticleManagerIndex.PageDataBind():Void 对未显式提供 IFormatProvider 的 System.Int32.ToString 进行调用。此操作应改为对 System.Int32.ToString(System.IFormatProvider) 的调用。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
+   <Name>避免未使用的私有字段</Name>
+   <Description>检测到程序集内似乎有未访问过的私有字段。如果在错误中引发此冲突，请向 FxCop 组发送问题报告。</Description>
+   <Resolution Name="Default">似乎从未使用过字段“{0}”或只对其进行过赋值。请使用此字段或移除它。</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031">
+   <Name>不要捕捉一般异常类型</Name>
+   <Description>不应捕捉 Exception 或 SystemException。捕捉一般异常类型会使库用户看不到运行时问题，并会使调试复杂化。您应该仅捕捉自己可以进行适当处理的异常。</Description>
+   <Resolution Name="Default">修改“{0}”以便捕捉比“{1}”更具体的异常，或者再次引发该异常。</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="DesignRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>请不要将文本作为本地化参数传递</Name>
+   <Description>嵌入源代码的字符串难以进行本地化。对于通常应进行本地化的字符串，要避免将其作为参数来传递。例如，多数本地化的应用程序应对传递给异常构造函数的字符串参数进行本地化。因此，创建异常实例时，从字符串表检索的字符串参数比字符串更为适合。</Description>
+   <Resolution Name="Default">{0} 将文本作为对 {2} 的调用的参数 {1} 进行传递。请改为从资源表中检索以下字符串参数:“{3}”</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201">
+   <Name>不要引发保留的异常类型</Name>
+   <Description>用户代码不应创建和引发某些类型的异常，即属于运行库保留的异常类型或太通用的异常类型。太通用的异常类型包括 Exception、SystemException 和 ApplicationException。运行库保留的异常类型包括 ThreadAbortException、OutOfMemoryException、ExecutionEngineException 和 IndexOutOfRangeException。</Description>
+   <Resolution Name="TooGeneric">{0} 创建类型为“{1}”的异常，该异常类型不够具体，不应由用户代码引发。如果可能引发此异常实例，请使用其他异常类型。</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="UsageRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>标识符的大小写应当正确</Name>
+   <Description>类型、命名空间和成员标识符应采用 Pascal 大小写格式。参数标识符应采用 Camel 大小写格式。Pascal 大小写格式约定每个单词的首字母大写，如 BackColor。Camel 大小写格式约定第一个单词的首个字母小写，所有后续单词的首个字母都大写，如 backgroundColor。</Description>
+   <Resolution Name="Member">更正成员名“{0}”的大小写。</Resolution>
+   <Resolution Name="Type">更正类型名“{0}”的大小写。</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="LongAcronymsShouldBePascalCased" Category="Microsoft.Naming" CheckId="CA1705">
+   <Name>较长的首字母缩略词应采用 Pascal 大小写格式。</Name>
+   <Description>三个或更多字母组成的首字母缩略词应采用 Pascal 大小写格式。例如，应使用 XmlSpace，而不应是 XMLSpace。为与现有非托管符号方案兼容，可能需要违反此规则。但一般来说，这些符号在使用它们的程序集之外不可见。</Description>
+   <Resolution Name="Member">更正成员名“{0}”中的大写。</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801">
+   <Name>检查未使用的参数</Name>
+   <Description>检查在非虚方法的方法体中未使用的参数，以确保不存在应该访问这些参数的情况。未使用的参数带来维护和性能开销。有时，与此规则冲突可能说明方法中存在实现 bug，例如，该参数实际上应该已在方法体中使用了。如果该参数由于向后兼容性而必须存在，则请忽略关于此规则的警告。</Description>
+   <Resolution Name="Default">从未使用 {1} 的参数“{0}”。请移除该参数或在方法体中使用它。</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="UsageRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="SetLocaleForDataTypes" Category="Microsoft.Globalization" CheckId="CA1306">
+   <Name>设置数据类型的区域设置</Name>
+   <Description>在多数情况下，应将 DataSet 和 DataTable 实例的 Locale 显式设置为 CultureInfo.InvariantCulture。在创建 DataSet 或 DataTable 实例时，将 Locale 设置为当前区域。在多数情况下，应将 Locale 设置为 CultureInfo.InvariantCulture，以保证所有区域中的排序行为都正确。</Description>
+   <Resolution Name="Default">只要“{1}”创建了该类型的实例，就要确保设置 {0} Locale 属性。</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706">
+   <Name>较短的首字母缩略词应全部大写</Name>
+   <Description>由两个字母组成的首字母缩略词应全部大写。例如，应使用 System.IO，而不是 System.Io。尽管有些两个字母的首字母缩略词习惯采用后一种形式，但不应因此而排斥此规则。例如，“DbConnection”很常见，但并不正确，应使用“DBConnection”。为与现有非托管符号方案兼容，可能需要违反此规则。但一般来说，这些符号在使用它们的程序集之外不可见。</Description>
+   <Resolution Name="Member">更正成员名“{1}”中“{0}”的大写。</Resolution>
+   <Resolution Name="MemberId">“Id”是一个缩写词，因此无需遵守首字母缩略词大小写规则。请更正成员名“{0}”中“ID”的大写，将其更改为“Id”。</Resolution>
+   <Resolution Name="Type">更正类型名“{1}”中“{0}”的大写。</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>指定 IFormatProvider</Name>
+   <Description>如果存在一个将 IFormatProvider 作为参数的重载，则应始终调用该重载，而不使用不具有该参数的重载。公共语言运行库中的某些方法执行值与字符串表示形式之间的相互转换，并使用一个叫做格式说明符的字符串参数，该参数包含一个或多个字符，用于指示如何对值进行转换。如果格式说明符的含义因区域性而异，则格式设置对象提供在字符串表示形式中使用的实际字符。如果区域之间的排序和比较行为应始终不变，请指定 CultureInfo.InvariantCulture。</Description>
+   <Resolution Name="Default">{0} 对未显式提供 IFormatProvider 的 {1} 进行调用。此操作应改为对 {2} 的调用。</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="GlobalizationRules.dll" Version="8.0.0.0" />
+  </Rule>
+  <Rule TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820">
+   <Name>使用字符串长度测试是否有空字符串</Name>
+   <Description>若要测试是否有空字符串，请检查 String.Length 是否等于零。对于如 "".Equals(someString) 和 String.Empty.Equals(someString) 之类的构造，其效率低于字符串长度测试。请使用 someString.Length == 0 检查来替换它们。</Description>
+   <Resolution Name="IsNullOrEmpty">使用 String.IsNullOrEmpty 调用替换“{2}”中对 String.{0}({1}) 的调用。</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="8.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="Line">行</String>
+  <String Key="LocationNotStoredInPdb">&lt;Location not stored in Pdb&gt;</String>
+  <String Key="Project">项目</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">Microsoft Visual Studio 2005 代码分析报告</String>
+ </Localized>
+</FxCopReport>

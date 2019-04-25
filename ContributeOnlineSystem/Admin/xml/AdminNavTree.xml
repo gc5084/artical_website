@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMapNode url="" title="投稿系统后台管理-系统管理员" description="">
+	<siteMapNode url="~/Admin/PageUserManager/UserIndex.aspx" title="用户管理" description="">
+		<siteMapNode url="~/Admin/PageUserManager/AddUserInfo.aspx" title="用户信息列表" description=""/>
+		<siteMapNode url="~/Admin/AddUser.aspx" title="添加用户信息" description=""/>
+	</siteMapNode>
+	<siteMapNode url="" title="系统管理" description="">
+		<siteMapNode url="~/Admin/PageArticleManager/ArticleManagerIndex.aspx" title="稿件管理" description=""/>
+		<siteMapNode url="~/Admin/PageArticleManager/ArticleColumnSearch.aspx" title="稿件栏目" description=""/>
+		<siteMapNode url="~/Admin/PageExpertFieldManager/PageFieldSearch.aspx" title="专家领域" description=""/>
+		<siteMapNode url="~/Admin/ChangeAdminPwd.aspx" title="系统管理员密码修改" description=""/>
+	</siteMapNode>
+</siteMapNode>

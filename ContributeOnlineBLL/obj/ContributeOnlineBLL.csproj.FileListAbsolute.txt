@@ -1,0 +1,45 @@
+E:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.BLL.dll
+E:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.BLL.pdb
+E:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.DAL.dll
+E:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.Models.dll
+E:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.DAL.pdb
+E:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.Models.pdb
+E:\End\ContributeOnlineBLL\obj\Debug\ResolveAssemblyReference.cache
+E:\End\ContributeOnlineBLL\obj\Debug\ContributeOnlineSystem.BLL.dll
+E:\End\ContributeOnlineBLL\obj\Debug\ContributeOnlineSystem.BLL.pdb
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.BLL.dll
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.BLL.pdb
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.DAL.dll
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.Models.dll
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.DAL.pdb
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.Models.pdb
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineBLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineBLL\obj\Debug\ContributeOnlineSystem.BLL.dll
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineBLL\obj\Debug\ContributeOnlineSystem.BLL.pdb
+F:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.BLL.dll
+F:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.BLL.pdb
+F:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.DAL.dll
+F:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.Models.dll
+F:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.DAL.pdb
+F:\End\ContributeOnlineBLL\bin\Debug\ContributeOnlineSystem.Models.pdb
+F:\End\ContributeOnlineBLL\obj\Debug\ResolveAssemblyReference.cache
+F:\End\ContributeOnlineBLL\obj\Debug\ContributeOnlineSystem.BLL.dll
+F:\End\ContributeOnlineBLL\obj\Debug\ContributeOnlineSystem.BLL.pdb
+F:\End\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.BLL.dll
+F:\End\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.BLL.pdb
+F:\End\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.DAL.dll
+F:\End\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.Models.dll
+F:\End\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.DAL.pdb
+F:\End\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.Models.pdb
+F:\End\ContributeOnlineBLL\obj\Release\ResolveAssemblyReference.cache
+F:\End\ContributeOnlineBLL\obj\Release\ContributeOnlineSystem.BLL.dll
+F:\End\ContributeOnlineBLL\obj\Release\ContributeOnlineSystem.BLL.pdb
+F:\ContributeOnline\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.BLL.dll
+F:\ContributeOnline\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.BLL.pdb
+F:\ContributeOnline\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.DAL.dll
+F:\ContributeOnline\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.Models.dll
+F:\ContributeOnline\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.DAL.pdb
+F:\ContributeOnline\ContributeOnlineBLL\bin\Release\ContributeOnlineSystem.Models.pdb
+F:\ContributeOnline\ContributeOnlineBLL\obj\Release\ResolveAssemblyReference.cache
+F:\ContributeOnline\ContributeOnlineBLL\obj\Release\ContributeOnlineSystem.BLL.dll
+F:\ContributeOnline\ContributeOnlineBLL\obj\Release\ContributeOnlineSystem.BLL.pdb

@@ -1,0 +1,235 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	border:0px;
+}
+
+html{
+	scrollbar-face-color: #dbebfe;
+	scrollbar-shadow-color: #B8D6FA;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #DBEBFE;
+	scrollbar-darkshadow-color:#6fa2e6;
+	scrollbar-track-color: #d9e4f5;
+	scrollbar-arrow-color: #458CE4;
+}
+
+a{
+	color:#000;
+	text-decoration:none;
+}
+#main fieldset{
+	border:solid 1px #c0d7f4;
+}
+
+/*selectÑùÊ½*/
+.selectStyle div.tag_select{
+	display:block;
+	color:#000;
+	width:132px;
+	height:22px;
+	background:transparent url("../images/select.gif") no-repeat 0 0;
+	padding:0 10px;
+	line-height:22px;
+}
+.selectStyle div.tag_select_hover{
+	display:block;
+	color:#000;
+	width:132px;
+	height:22px;
+	background:transparent url("../images/select.gif") no-repeat 0 -22px;
+	padding:0 10px;
+	line-height:22px;
+}
+.selectStyle div.tag_select_open{
+	display:block;
+	color:#000;
+	width:132px;
+	height:22px;
+	background:transparent url("../images/select.gif") no-repeat 0 -44px;
+	padding:0 10px;
+	line-height:22px;
+}
+
+.selectStyle ul.tag_options{
+	position:absolute;
+	margin:0;
+	list-style:none;
+	background:transparent url("../images/select.gif") no-repeat left bottom;
+	width:150px;
+	padding:0 0 1px;
+	margin:0;
+	width:130px;
+}
+.selectStyle ul.tag_options li{
+	background:transparent url("../images/select.gif") repeat-y -152px 0;
+	display:block;
+	width:131px;
+	padding:0 10px;
+	height:22px;
+	text-decoration:none;
+	line-height:22px;
+	color:#000;
+}
+
+.selectStyle ul.tag_options li.open_hover{
+	background:transparent url("../images/select.gif") no-repeat 0 -88px;
+	color:#000;
+}
+.selectStyle ul.tag_options li.open_selected{
+	background:transparent url("../images/select.gif") no-repeat 0 -66px;
+	color:#19555F
+}
+
+
+
+#topMenu{
+  	background:#dfe8f6;
+	border:solid 1px #ffffff;
+	border-bottom:solid 1px #99bbe8;
+	padding:6px;
+}
+#topMenu ul{
+	list-style:none;
+	height:21px;
+	float:right;
+}
+#topMenu ul li{
+	display:inline;
+}
+#topMenu ul li a{
+	display:block;
+	float:left; 
+	padding:0 0 0 10px;
+	line-height:21px;
+}
+#topMenu ul li a img{
+	float:left;
+	margin-right:4px;
+	margin-top:2px;
+}
+#topMenu ul li a:hover{
+	background:url("../images/btn-bg.gif");
+}
+#topMenu ul li span{
+	display:block;
+	padding:0 10px 0 0 ;
+}
+#topMenu ul li a:hover span{
+	background:url("../images/btn-bg.gif") no-repeat right top;
+}
+
+
+#form{
+	padding:10px;
+	padding-top:0px;
+}
+#form fieldset{
+	padding:20px;
+}
+#form .textStyle{
+	border:solid 1px #54a5d5;
+	background:url("../images/inputBg.gif") repeat-x;
+	padding:2px;
+	width:80%;
+}
+#form table td{
+	padding:3px;
+}
+
+
+
+#topMenu{
+  	background:#dfe8f6;
+	border:solid 1px #ffffff;
+	border-bottom:solid 1px #99bbe8;
+	padding:6px;
+}
+#topMenu ul{
+	list-style:none;
+	height:21px;
+	float:right;
+}
+#topMenu ul li{
+	display:inline;
+}
+#topMenu ul li a{
+	display:block;
+	float:left; 
+	padding:0 0 0 10px;
+	line-height:21px;
+}
+#topMenu ul li a img{
+	float:left;
+	margin-right:4px;
+	margin-top:2px;
+}
+#topMenu ul li a:hover{
+	background:url("../images/btn-bg.gif");
+}
+#topMenu ul li span{
+	display:block;
+	padding:0 10px 0 0 ;
+}
+#topMenu ul li a:hover span{
+	background:url("../images/btn-bg.gif") no-repeat right top;
+}
+
+
+.page{
+  	background:url("../images/listBg.gif") repeat-x;
+	height:23px;
+  	border-bottom:solid 1px #cccccc;
+}
+.search{
+  	border-bottom:solid 1px #cccccc;
+	height:35px;
+}
+.list .listTitle td{
+  	text-align:center;
+}
+.listTitle{
+  	background:url("../images/listBg.gif") repeat-x;
+	height:23px;
+}
+.list td{
+  	border-left:solid 1px #cccccc;
+  	border-bottom:solid 1px #cccccc;
+	padding:5px;
+}
+.listTitle td{
+  	background:url("../images/listBg.gif") repeat-x;
+	height:23px;
+	padding:0px;
+}
+.list .firstTd{
+  	border-left:0;
+}
+.search_result{
+  	background:url("../images/listBg.gif") repeat-x;
+	height:23px;
+  	border-top:solid 1px #cccccc;
+  	border-bottom:solid 1px #cccccc;
+
+}
+.textStyle{
+	border:solid 1px #54a5d5;
+	background:url("../images/inputBg.gif") repeat-x;
+	padding:2px;
+}
+.btn{
+	background:url("../images/btn.gif");
+	background-position:left top;	
+	height:21px;
+	padding:0 5px 0 10px;
+	line-height:21px;
+}
+.btnStyle{
+	background:url("../images/btn.gif") right top;
+	background-position:right top;
+	display:block;
+	float:left;
+	height:21px;
+	padding:0 3px 0 0px;
+}

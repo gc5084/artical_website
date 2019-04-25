@@ -1,0 +1,35 @@
+E:\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.DAL.dll
+E:\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.DAL.pdb
+E:\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.Models.dll
+E:\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.Models.pdb
+E:\End\ContributeOnlineDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\End\ContributeOnlineDAL\obj\Debug\ContributeOnlineSystem.DAL.dll
+E:\End\ContributeOnlineDAL\obj\Debug\ContributeOnlineSystem.DAL.pdb
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.DAL.dll
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.DAL.pdb
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.Models.dll
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.Models.pdb
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineDAL\obj\Debug\ContributeOnlineSystem.DAL.dll
+C:\Documents and Settings\Blue\桌面\End\ContributeOnlineDAL\obj\Debug\ContributeOnlineSystem.DAL.pdb
+F:\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.DAL.dll
+F:\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.DAL.pdb
+F:\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.Models.dll
+F:\End\ContributeOnlineDAL\bin\Debug\ContributeOnlineSystem.Models.pdb
+F:\End\ContributeOnlineDAL\obj\Debug\ResolveAssemblyReference.cache
+F:\End\ContributeOnlineDAL\obj\Debug\ContributeOnlineSystem.DAL.dll
+F:\End\ContributeOnlineDAL\obj\Debug\ContributeOnlineSystem.DAL.pdb
+F:\End\ContributeOnlineDAL\bin\Release\ContributeOnlineSystem.DAL.dll
+F:\End\ContributeOnlineDAL\bin\Release\ContributeOnlineSystem.DAL.pdb
+F:\End\ContributeOnlineDAL\bin\Release\ContributeOnlineSystem.Models.dll
+F:\End\ContributeOnlineDAL\bin\Release\ContributeOnlineSystem.Models.pdb
+F:\End\ContributeOnlineDAL\obj\Release\ResolveAssemblyReference.cache
+F:\End\ContributeOnlineDAL\obj\Release\ContributeOnlineSystem.DAL.dll
+F:\End\ContributeOnlineDAL\obj\Release\ContributeOnlineSystem.DAL.pdb
+F:\ContributeOnline\ContributeOnlineDAL\bin\Release\ContributeOnlineSystem.DAL.dll
+F:\ContributeOnline\ContributeOnlineDAL\bin\Release\ContributeOnlineSystem.DAL.pdb
+F:\ContributeOnline\ContributeOnlineDAL\bin\Release\ContributeOnlineSystem.Models.dll
+F:\ContributeOnline\ContributeOnlineDAL\bin\Release\ContributeOnlineSystem.Models.pdb
+F:\ContributeOnline\ContributeOnlineDAL\obj\Release\ResolveAssemblyReference.cache
+F:\ContributeOnline\ContributeOnlineDAL\obj\Release\ContributeOnlineSystem.DAL.dll
+F:\ContributeOnline\ContributeOnlineDAL\obj\Release\ContributeOnlineSystem.DAL.pdb
