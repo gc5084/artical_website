@@ -1,2 +1,5 @@
 # artical_website
-A simple article management system for school
+
+A simple article management website for school
+
+
